@@ -4,6 +4,7 @@ import Row from "react-bootstrap/esm/Row"
 import Container from "react-bootstrap/esm/Container"
 import { Fragment } from "react"
 import Button from "react-bootstrap/esm/Button"
+import { PageNotFound } from "./PageNotFound"
 
 export const Vacancy = () => {
     const id = document.location.pathname.split('/')[3]
@@ -52,5 +53,5 @@ export const Vacancy = () => {
                 <Col md={12} className='mx-auto my-4'><Button variant='outline-info'>Apply Now</Button></Col>
             </Col>
         </Container>
-    ) : ''
+    ) : <PageNotFound />
 }

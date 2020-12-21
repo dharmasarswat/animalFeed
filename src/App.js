@@ -10,6 +10,7 @@ import { Homemix } from './components/Homemix';
 import { Career } from './components/Careers';
 import { Vacancy } from './components/Vacancy';
 import { SpecialityFeed } from './components/SpecialityFeed';
+import { PageNotFound } from './components/PageNotFound';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route exact path='/specialityFeed' component={SpecialityFeed} />
           <Route exact path='/careers' component={Career} />
           <Route exact path='/careers/:name/:id' component={Vacancy} />
+          <Route path='*' component={PageNotFound} />
         </Switch>
         <Footer />
       </BrowserRouter>

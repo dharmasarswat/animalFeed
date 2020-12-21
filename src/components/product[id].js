@@ -4,6 +4,7 @@ import { products } from "../assets/products"
 import Col from "react-bootstrap/esm/Col"
 import formatNumber from "../helper/formatNumber"
 import Button from "react-bootstrap/esm/Button"
+import { PageNotFound } from "./PageNotFound"
 
 export const Product = () => {
 
@@ -56,5 +57,5 @@ export const Product = () => {
             </Row>
         </Container>
     ) 
-    : ''
+    : <PageNotFound />
 }
