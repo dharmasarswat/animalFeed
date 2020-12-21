@@ -32,7 +32,7 @@ export const Footer = () => {
                         <img src={process.env.PUBLIC_URL+'/animal-feed.png'} alt="Animal Feed" height={'auto'} width={100} />
                     </Col>
                     <div className="my-4" style={{ height: '1px', width: '90%', backgroundColor: 'rgba(204, 204, 204, 0.507)' }} ></div>
-                    <Col md={12} className='text-center font-weight-normal text-black-50' style={{ letterSpacing: '1px' }} >Copyright © 2018-2020 Animal Feed. All rights reserved.</Col>
+                    <Col md={12} className='text-center font-weight-normal text-black-50' style={{ letterSpacing: '1px' }} >Copyright © 2018-2020 Animal Feed. All rights reserved by Dharmendra Sarswat.</Col>
                 </Row>
             </Container>
         </footer>
