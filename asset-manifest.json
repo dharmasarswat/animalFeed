@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/animalFeed/static/css/main.3f6c1534.chunk.css",
-    "main.js": "/animalFeed/static/js/main.90c3b3d6.chunk.js",
-    "main.js.map": "/animalFeed/static/js/main.90c3b3d6.chunk.js.map",
+    "main.js": "/animalFeed/static/js/main.d7eb9ad0.chunk.js",
+    "main.js.map": "/animalFeed/static/js/main.d7eb9ad0.chunk.js.map",
     "runtime-main.js": "/animalFeed/static/js/runtime-main.0ee48293.js",
     "runtime-main.js.map": "/animalFeed/static/js/runtime-main.0ee48293.js.map",
     "static/css/2.f1ae19ab.chunk.css": "/animalFeed/static/css/2.f1ae19ab.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.f1ae19ab.chunk.css",
     "static/js/2.74949557.chunk.js",
     "static/css/main.3f6c1534.chunk.css",
-    "static/js/main.90c3b3d6.chunk.js"
+    "static/js/main.d7eb9ad0.chunk.js"
   ]
 }
