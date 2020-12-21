@@ -18,6 +18,7 @@ function App() {
         <NavBar />
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route exact path='/animalFeed' component={Home} />
           <Route exact path='/products' component={Products} />
           <Route exact path='/products/:id' component={Product} />
           <Route exact path='/dairyNutrition' component={DairyNutrition} />
