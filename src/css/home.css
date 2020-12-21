@@ -1,0 +1,20 @@
+.heroImage{
+    height: auto;
+    width: 200px;
+    transform: rotateY(180deg);
+}
+
+.heroImageContainer{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px){
+    .heroImage{
+        margin-top: 50px;
+        
+    } 
+    .hero_row{
+        flex-direction: row-reverse;
+    }
+}

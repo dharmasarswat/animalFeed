@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import Home from './components/Home';
+import { NavBar } from './components/Navbar';
+import { Footer } from './components/Footer';
+import { Products } from './components/Products';
+import { Product } from './components/product[id]';
+import { DairyNutrition } from './components/DairyNutrition';
+import { Homemix } from './components/Homemix';
+import { Career } from './components/Careers';
+import { Vacancy } from './components/Vacancy';
+import { SpecialityFeed } from './components/SpecialityFeed';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <BrowserRouter>
+        <NavBar />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/products' component={Products} />
+          <Route exact path='/products/:id' component={Product} />
+          <Route exact path='/dairyNutrition' component={DairyNutrition} />
+          <Route exact path='/homemixNutrition' component={Homemix} />
+          <Route exact path='/specialityFeed' component={SpecialityFeed} />
+          <Route exact path='/careers' component={Career} />
+          <Route exact path='/careers/:name/:id' component={Vacancy} />
+        </Switch>
+        <Footer />
+      </BrowserRouter>
   );
 }
 

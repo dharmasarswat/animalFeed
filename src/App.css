@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+a.active{
+  color: var(--primary-color)!important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

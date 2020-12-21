@@ -1,0 +1,11 @@
+.footer-link{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.507);
+    transition: .3s all ease-in-out;
+    padding-left: 0;
+}
+
+.footer-link:hover{
+    color: var(--primary-color)
+}
